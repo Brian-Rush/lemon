@@ -1,0 +1,147 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 2px solid hotpink;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0px;
+  border: 4px solid teal;
+}
+
+.both {
+margin:auto;
+width: 1000px;
+position: absolute;
+border: 1px solid black;
+/*vertical-align: bottom;*/
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.both > div {
+
+}
+
+#lemon {
+  display: block;
+  width: 134px;
+  height: 33%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  /*position: relative;*/
+  /*top: 40%;
+  transform: translate(0, -50%);*/
+
+}
+
+
+#lemon-title {
+  height: 33%;
+  /*position: absolute;*/
+  text-align: center;
+  font-size: 25px;
+
+}
+
+#lemon-title p {
+  color: purple;
+
+  position: absolute;
+  top: 16.7%;
+  transform: translate(-50%, -50%);
+  margin: 0px;
+  margin-left: 171px;
+}
+#lemon-square {
+  height: 400px;
+  width: 400px;
+  float: left;
+  background-color: gray;
+  margin-right: 22px;
+  position: relative;
+}
+
+#lemon-inner {
+  border: 4px solid #4990e3;
+  background-color: #a7c1e0;
+  margin: 25px;
+  /*top: 50%;*/
+  height: 350px;
+  width: 350px;
+  position: absolute;
+}
+
+.lemon-caption {
+  display: table-cell;
+  vertical-align: middle;
+  height: 116px;
+  padding: 0 10px;
+  color: purple;
+}
+
+.lemon-caption p {
+  background-color: grey;
+}
+
+#abc {
+  height: 400px;
+  width: 554px;
+  border: 2px solid red;
+  float: left;
+  margin-left: 22px;
+  border: 2px solid purple;
+}
+
+.abc-header {
+  height: 50px;
+  position: relative;
+  border-bottom: 2px solid purple;
+  color: purple;
+}
+
+.abc-header h3{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.one-two-three {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.one-two-three span {
+  margin-left: 20px;
+}
+
+.abc-paragraph {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  height: 350px;
+  padding: 0 50px;
+  font-size: 22px;
+  color: gray;
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
